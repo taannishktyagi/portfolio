@@ -22,7 +22,6 @@
   color: var(--text);
   background: var(--bg);
   font-synthesis: none;
-  overflow:hidden;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -66,6 +65,7 @@ body {
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
+  overflow:hidden;
 }
 
 h1,
